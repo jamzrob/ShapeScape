@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2C61CC1964771500B34332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2C61CB1964771500B34332 /* Images.xcassets */; };
+		CC35CDE519B4B66A00066D8C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC35CDE419B4B66A00066D8C /* iAd.framework */; };
+		CCAD0778195B51D900B73EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD0777195B51D900B73EEB /* Foundation.framework */; };
+		CCAD077A195B51D900B73EEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD0779195B51D900B73EEB /* CoreGraphics.framework */; };
+		CCAD077C195B51D900B73EEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD077B195B51D900B73EEB /* UIKit.framework */; };
+		CCAD0782195B51D900B73EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCAD0780195B51D900B73EEB /* InfoPlist.strings */; };
+		CCAD0784195B51D900B73EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD0783195B51D900B73EEB /* main.m */; };
+		CCAD0788195B51D900B73EEB /* JSRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD0787195B51D900B73EEB /* JSRAppDelegate.m */; };
+		CCAD078B195B51D900B73EEB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAD0789195B51D900B73EEB /* Main_iPhone.storyboard */; };
+		CCAD0791195B51D900B73EEB /* JSRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD0790195B51D900B73EEB /* JSRViewController.m */; };
+		CCAD0793195B51D900B73EEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD0792195B51D900B73EEB /* Images.xcassets */; };
+		CCAD079A195B51D900B73EEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD0799195B51D900B73EEB /* XCTest.framework */; };
+		CCAD079B195B51D900B73EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD0777195B51D900B73EEB /* Foundation.framework */; };
+		CCAD079C195B51D900B73EEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD077B195B51D900B73EEB /* UIKit.framework */; };
+		CCAD07A4195B51D900B73EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCAD07A2195B51D900B73EEB /* InfoPlist.strings */; };
+		CCAD07A6195B51D900B73EEB /* ShapeScapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD07A5195B51D900B73EEB /* ShapeScapeTests.m */; };
+		CCAD07B1195B51F500B73EEB /* JSRShapeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD07B0195B51F500B73EEB /* JSRShapeModel.m */; };
+		CCAD07B4195B520D00B73EEB /* JSRBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD07B3195B520D00B73EEB /* JSRBlockView.m */; };
+		CCAD07B7195B521E00B73EEB /* JSRPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD07B6195B521E00B73EEB /* JSRPlayerView.m */; };
+		CCAD07B9195B5ADC00B73EEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD07B8195B5ADC00B73EEB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCAD079D195B51D900B73EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCAD076C195B51D900B73EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAD0773195B51D900B73EEB;
+			remoteInfo = ShapeScape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC2C61CB1964771500B34332 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = /Users/jamesraubenheimer/Desktop/Images.xcassets; sourceTree = "<absolute>"; };
+		CC35CDE419B4B66A00066D8C /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CC3E9D031CD6CB3600399CC4 /* JSRBlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRBlockView.h; sourceTree = "<group>"; };
+		CCAD0774195B51D900B73EEB /* ShapeScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAD0777195B51D900B73EEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCAD0779195B51D900B73EEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCAD077B195B51D900B73EEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCAD077F195B51D900B73EEB /* ShapeScape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeScape-Info.plist"; sourceTree = "<group>"; };
+		CCAD0781195B51D900B73EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCAD0783195B51D900B73EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCAD0785195B51D900B73EEB /* ShapeScape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShapeScape-Prefix.pch"; sourceTree = "<group>"; };
+		CCAD0786195B51D900B73EEB /* JSRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRAppDelegate.h; sourceTree = "<group>"; };
+		CCAD0787195B51D900B73EEB /* JSRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRAppDelegate.m; sourceTree = "<group>"; };
+		CCAD078A195B51D900B73EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCAD078F195B51D900B73EEB /* JSRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRViewController.h; sourceTree = "<group>"; };
+		CCAD0790195B51D900B73EEB /* JSRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRViewController.m; sourceTree = "<group>"; };
+		CCAD0792195B51D900B73EEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCAD0798195B51D900B73EEB /* ShapeScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeScapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAD0799195B51D900B73EEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCAD07A1195B51D900B73EEB /* ShapeScapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeScapeTests-Info.plist"; sourceTree = "<group>"; };
+		CCAD07A3195B51D900B73EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCAD07A5195B51D900B73EEB /* ShapeScapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeScapeTests.m; sourceTree = "<group>"; };
+		CCAD07AF195B51F500B73EEB /* JSRShapeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRShapeModel.h; sourceTree = "<group>"; };
+		CCAD07B0195B51F500B73EEB /* JSRShapeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRShapeModel.m; sourceTree = "<group>"; };
+		CCAD07B3195B520D00B73EEB /* JSRBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRBlockView.m; sourceTree = "<group>"; };
+		CCAD07B5195B521E00B73EEB /* JSRPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSRPlayerView.h; path = ../JSRPlayerView.h; sourceTree = "<group>"; };
+		CCAD07B6195B521E00B73EEB /* JSRPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSRPlayerView.m; path = ../JSRPlayerView.m; sourceTree = "<group>"; };
+		CCAD07B8195B5ADC00B73EEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAD0771195B51D900B73EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC35CDE519B4B66A00066D8C /* iAd.framework in Frameworks */,
+				CCAD07B9195B5ADC00B73EEB /* QuartzCore.framework in Frameworks */,
+				CCAD077A195B51D900B73EEB /* CoreGraphics.framework in Frameworks */,
+				CCAD077C195B51D900B73EEB /* UIKit.framework in Frameworks */,
+				CCAD0778195B51D900B73EEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAD0795195B51D900B73EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAD079A195B51D900B73EEB /* XCTest.framework in Frameworks */,
+				CCAD079C195B51D900B73EEB /* UIKit.framework in Frameworks */,
+				CCAD079B195B51D900B73EEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCAD076B195B51D900B73EEB = {
+			isa = PBXGroup;
+			children = (
+				CC2C61CB1964771500B34332 /* Images.xcassets */,
+				CCAD077D195B51D900B73EEB /* ShapeScape */,
+				CCAD079F195B51D900B73EEB /* ShapeScapeTests */,
+				CCAD0776195B51D900B73EEB /* Frameworks */,
+				CCAD0775195B51D900B73EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAD0775195B51D900B73EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD0774195B51D900B73EEB /* ShapeScape.app */,
+				CCAD0798195B51D900B73EEB /* ShapeScapeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAD0776195B51D900B73EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC35CDE419B4B66A00066D8C /* iAd.framework */,
+				CCAD07B8195B5ADC00B73EEB /* QuartzCore.framework */,
+				CCAD0777195B51D900B73EEB /* Foundation.framework */,
+				CCAD0779195B51D900B73EEB /* CoreGraphics.framework */,
+				CCAD077B195B51D900B73EEB /* UIKit.framework */,
+				CCAD0799195B51D900B73EEB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCAD077D195B51D900B73EEB /* ShapeScape */ = {
+			isa = PBXGroup;
+			children = (
+				CCFB591B19A137500016955F /* iPad */,
+				CCAD0786195B51D900B73EEB /* JSRAppDelegate.h */,
+				CCAD0787195B51D900B73EEB /* JSRAppDelegate.m */,
+				CCAD0789195B51D900B73EEB /* Main_iPhone.storyboard */,
+				CCAD078F195B51D900B73EEB /* JSRViewController.h */,
+				CCAD0790195B51D900B73EEB /* JSRViewController.m */,
+				CCAD0792195B51D900B73EEB /* Images.xcassets */,
+				CCAD077E195B51D900B73EEB /* Supporting Files */,
+				CCAD07AF195B51F500B73EEB /* JSRShapeModel.h */,
+				CCAD07B0195B51F500B73EEB /* JSRShapeModel.m */,
+				CC3E9D031CD6CB3600399CC4 /* JSRBlockView.h */,
+				CCAD07B3195B520D00B73EEB /* JSRBlockView.m */,
+				CCAD07B5195B521E00B73EEB /* JSRPlayerView.h */,
+				CCAD07B6195B521E00B73EEB /* JSRPlayerView.m */,
+			);
+			path = ShapeScape;
+			sourceTree = "<group>";
+		};
+		CCAD077E195B51D900B73EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD077F195B51D900B73EEB /* ShapeScape-Info.plist */,
+				CCAD0780195B51D900B73EEB /* InfoPlist.strings */,
+				CCAD0783195B51D900B73EEB /* main.m */,
+				CCAD0785195B51D900B73EEB /* ShapeScape-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCAD079F195B51D900B73EEB /* ShapeScapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD07A5195B51D900B73EEB /* ShapeScapeTests.m */,
+				CCAD07A0195B51D900B73EEB /* Supporting Files */,
+			);
+			path = ShapeScapeTests;
+			sourceTree = "<group>";
+		};
+		CCAD07A0195B51D900B73EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD07A1195B51D900B73EEB /* ShapeScapeTests-Info.plist */,
+				CCAD07A2195B51D900B73EEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCFB591B19A137500016955F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAD0773195B51D900B73EEB /* ShapeScape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAD07A9195B51D900B73EEB /* Build configuration list for PBXNativeTarget "ShapeScape" */;
+			buildPhases = (
+				CCAD0770195B51D900B73EEB /* Sources */,
+				CCAD0771195B51D900B73EEB /* Frameworks */,
+				CCAD0772195B51D900B73EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeScape;
+			productName = ShapeScape;
+			productReference = CCAD0774195B51D900B73EEB /* ShapeScape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCAD0797195B51D900B73EEB /* ShapeScapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAD07AC195B51D900B73EEB /* Build configuration list for PBXNativeTarget "ShapeScapeTests" */;
+			buildPhases = (
+				CCAD0794195B51D900B73EEB /* Sources */,
+				CCAD0795195B51D900B73EEB /* Frameworks */,
+				CCAD0796195B51D900B73EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCAD079E195B51D900B73EEB /* PBXTargetDependency */,
+			);
+			name = ShapeScapeTests;
+			productName = ShapeScapeTests;
+			productReference = CCAD0798195B51D900B73EEB /* ShapeScapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAD076C195B51D900B73EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JSR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Raubenblahblah;
+				TargetAttributes = {
+					CCAD0773195B51D900B73EEB = {
+						DevelopmentTeam = NDNY6R3Q8P;
+					};
+					CCAD0797195B51D900B73EEB = {
+						TestTargetID = CCAD0773195B51D900B73EEB;
+					};
+				};
+			};
+			buildConfigurationList = CCAD076F195B51D900B73EEB /* Build configuration list for PBXProject "ShapeScape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAD076B195B51D900B73EEB;
+			productRefGroup = CCAD0775195B51D900B73EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAD0773195B51D900B73EEB /* ShapeScape */,
+				CCAD0797195B51D900B73EEB /* ShapeScapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAD0772195B51D900B73EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2C61CC1964771500B34332 /* Images.xcassets in Resources */,
+				CCAD0793195B51D900B73EEB /* Images.xcassets in Resources */,
+				CCAD078B195B51D900B73EEB /* Main_iPhone.storyboard in Resources */,
+				CCAD0782195B51D900B73EEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAD0796195B51D900B73EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAD07A4195B51D900B73EEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAD0770195B51D900B73EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAD0791195B51D900B73EEB /* JSRViewController.m in Sources */,
+				CCAD07B4195B520D00B73EEB /* JSRBlockView.m in Sources */,
+				CCAD0788195B51D900B73EEB /* JSRAppDelegate.m in Sources */,
+				CCAD0784195B51D900B73EEB /* main.m in Sources */,
+				CCAD07B1195B51F500B73EEB /* JSRShapeModel.m in Sources */,
+				CCAD07B7195B521E00B73EEB /* JSRPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAD0794195B51D900B73EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAD07A6195B51D900B73EEB /* ShapeScapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCAD079E195B51D900B73EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCAD0773195B51D900B73EEB /* ShapeScape */;
+			targetProxy = CCAD079D195B51D900B73EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCAD0780195B51D900B73EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAD0781195B51D900B73EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCAD0789195B51D900B73EEB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAD078A195B51D900B73EEB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCAD07A2195B51D900B73EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAD07A3195B51D900B73EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCAD07A7195B51D900B73EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gary Raubenheimer (6P4WJDX798)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gary Raubenheimer (6P4WJDX798)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCAD07A8195B51D900B73EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAD07AA195B51D900B73EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeScape/ShapeScape-Prefix.pch";
+				INFOPLIST_FILE = "ShapeScape/ShapeScape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCAD07AB195B51D900B73EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeScape/ShapeScape-Prefix.pch";
+				INFOPLIST_FILE = "ShapeScape/ShapeScape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCAD07AD195B51D900B73EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeScape.app/ShapeScape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeScape/ShapeScape-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShapeScapeTests/ShapeScapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCAD07AE195B51D900B73EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeScape.app/ShapeScape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeScape/ShapeScape-Prefix.pch";
+				INFOPLIST_FILE = "ShapeScapeTests/ShapeScapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAD076F195B51D900B73EEB /* Build configuration list for PBXProject "ShapeScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAD07A7195B51D900B73EEB /* Debug */,
+				CCAD07A8195B51D900B73EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAD07A9195B51D900B73EEB /* Build configuration list for PBXNativeTarget "ShapeScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAD07AA195B51D900B73EEB /* Debug */,
+				CCAD07AB195B51D900B73EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAD07AC195B51D900B73EEB /* Build configuration list for PBXNativeTarget "ShapeScapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAD07AD195B51D900B73EEB /* Debug */,
+				CCAD07AE195B51D900B73EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCAD076C195B51D900B73EEB /* Project object */;
+}
